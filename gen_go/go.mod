@@ -1,4 +1,4 @@
-module github.com/takahiroaoki/protobuf
+module github.com/takahiroaoki/protobuf/gen_go
 
 go 1.24.1
 
