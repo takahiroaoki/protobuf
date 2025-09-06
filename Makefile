@@ -1,5 +1,4 @@
-lint:
+build:
 	buf lint
-
-generate:
 	buf generate
+	cd gen_go && go mod tidy
