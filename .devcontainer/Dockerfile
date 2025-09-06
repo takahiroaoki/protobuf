@@ -3,7 +3,6 @@ FROM amazonlinux:2023.7.20250331.0
 # dnf fixes tool versions
 RUN dnf install -y \
          git \
-         git-lfs \
          vi \
          make \
          golang \
