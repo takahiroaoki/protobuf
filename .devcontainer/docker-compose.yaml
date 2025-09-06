@@ -1,0 +1,9 @@
+services:
+  protobuf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspaces/protobuf
+    working_dir: /workspaces/protobuf
+    tty: true
