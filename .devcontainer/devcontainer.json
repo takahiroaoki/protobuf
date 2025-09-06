@@ -1,0 +1,14 @@
+{
+	"name": "protobuf",
+	"dockerComposeFile": "docker-compose.yaml",
+    "service": "protobuf",
+	"workspaceFolder": "/workspaces/protobuf",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
+			]
+		}
+	}
+}
