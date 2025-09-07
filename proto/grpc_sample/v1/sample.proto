@@ -3,23 +3,23 @@ syntax = "proto3";
 package grpc_sample.v1;
 
 service SampleService {
-    rpc GetUserInfo (GetUserInfoRequest) returns (GetUserInfoResponse);
-    rpc CreateUser (CreateUserRequest) returns (CreateUserResponse);
+  rpc GetUserInfo(GetUserInfoRequest) returns (GetUserInfoResponse);
+  rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
 }
 
 message GetUserInfoRequest {
-    string id = 1;
+  string id = 1;
 }
 
 message GetUserInfoResponse {
-    string id = 1;
-    string email = 2;
+  string id = 1;
+  string email = 2;
 }
 
 message CreateUserRequest {
-    string email = 1;
+  string email = 1;
 }
 
 message CreateUserResponse {
-    string id = 1;
+  string id = 1;
 }
